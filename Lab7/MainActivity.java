@@ -1,16 +1,26 @@
-package com.example.helloworld;
+package ecodcnc.com.lab7;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends Activity {
+
+    TextView textView;
+    Button ourButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        textView = (TextView) findViewById(R.id.textView);
+        ourButton = (Button) findViewById(R.id.button);
+        ourButton.setOnClickListener(new OurOnClickListener(this));
+
     }
 
     @Override
