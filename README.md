@@ -1,4 +1,4 @@
-# Mobile_AndroidIntro
+# Mobile - Android Intro
 Android Introduction PPT
 
 It is a Live instructor led lab. 
