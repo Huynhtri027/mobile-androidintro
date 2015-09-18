@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.ecodcnc.lab7;
 
 
 import android.view.View;
