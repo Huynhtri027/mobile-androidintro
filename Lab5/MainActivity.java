@@ -1,6 +1,6 @@
-package example.com.helloworld;
+package com.ecodcnc.helloworld;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -8,7 +8,7 @@ import android.widget.TextView; // LAB 2 NEW
 import android.util.Log;   // LAB 3 NEW
 import android.widget.Toast; // LAB 5 NEW
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
