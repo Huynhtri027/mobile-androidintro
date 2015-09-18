@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnUseGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="useGet"
+        android:text="Use Get" />
+
+    <Button
+        android:id="@+id/btnUsePost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="usePost"
+        android:text="Use Post" />
+
+    <TextView
+        android:id="@+id/txtSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="clearText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout><!-- From: file:/Users/bvellanki/androidworkspace/mobilestarterkit/HttpClientDemo/app/src/main/res/layout/main.xml -->
