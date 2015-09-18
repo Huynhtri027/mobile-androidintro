@@ -1,0 +1,34 @@
+_pDialog.dismiss();
+TextView txtError = (TextView) findViewById( R.id.errorLabel );
+
+Button   bt = ( Button )   findViewById( R.id.searchButton );
+bt.setEnabled( true );
+
+//first verify that the task completed is indeed the SearchTipsTask
+if( source.equals( SearchTipsTask._SEARCH_TIPS_ID ) ){
+
+	//if the task is not successful
+	if( response.isEmpty() || response == null || response.equals( "Failed" ) ){
+		txtError.setVisibility( TextView.VISIBLE );
+		txtError.setText( _searchNoResults );
+		return;
+	}
+	//if it is successful
+	else{
+
+		Log.i( "Response", response );
+		txtError.setText( "" );
+		txtError.setVisibility( TextView.INVISIBLE );
+
+		//creat a new intent with the OutputUI
+		Intent responseIntent = new Intent( SearchUI.this, OutputUI.class );
+		//add some message for the OutputUI
+		//first add what the tips are
+		responseIntent.putExtra( BlueMobileApp._SEARCH_RESULT_MSG, response );
+		//then add the original keyword
+		responseIntent.putExtra(BlueMobileApp._KEYWORD_MSG, _seeds);
+
+		//start the new activity
+		startActivity(responseIntent);
+	}
+}
