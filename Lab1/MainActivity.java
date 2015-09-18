@@ -1,4 +1,4 @@
-package com.ecodcnc;
+package com.ecodcnc.helloworld;
 
 import android.app.Activity;
 import android.os.Bundle;
