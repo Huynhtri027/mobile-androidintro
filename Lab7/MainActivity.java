@@ -1,4 +1,4 @@
-package ecodcnc.com.lab7;
+package com.ecodcnc.lab7;
 
 import android.app.Activity;
 import android.os.Bundle;
