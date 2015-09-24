@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
- <gradient
-   android:startColor="#11ffffff"
-   android:centerColor="#11d3d7cf"
-   android:endColor="#112e3436"
-   android:angle="90" />
-</shape><!-- From: file:/F:/sample_code/javaplays-mobilestarterkit/javaplays-mobileui-mobilestarterkit-template/res/drawable/line_divider.xml -->

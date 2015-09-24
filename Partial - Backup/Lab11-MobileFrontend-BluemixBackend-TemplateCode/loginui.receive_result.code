@@ -1,0 +1,29 @@
+EditText et_UserID  = (EditText) findViewById( R.id.et_UserID   );
+Button bt_Login     = (Button)   findViewById( R.id.bt_Login    );
+
+Log.i(_loginResponse, response);
+
+_pDialog.dismiss();
+
+//first verify that the task completed is indeed the LoginTask
+if( source.equals(LoginTask._LOGIN_TASK_ID) ){
+
+bt_Login.setEnabled(true);
+et_UserID.setEnabled(true);
+
+//if the response is Successful, enter the application
+if( response.equals( "Successful" ) ){
+
+	//retrieve and set the user id
+	String userID = String.valueOf( et_UserID.getText() );
+	BlueMobileApp.setUserID( userID );
+	_pDialog.dismiss();
+	enterApplication();
+}
+
+else{
+	Toast.makeText( this, _loginFailedMessage, Toast.LENGTH_LONG).show();
+	Log.i("Login Status" , "Failed " );
+}
+
+}

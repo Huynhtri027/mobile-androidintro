@@ -1,9 +1,0 @@
-//retrieve the keyword from the params
-String keyword = params[0];
-
-//prepare a JSON object
-JSONObject searchParams = new JSONObject();
-searchParams.put("question", keyword);
-
-//perform the post operation using the base class' utility function
-return performPost( _searchTipsURL , searchParams.toString(), null, null );

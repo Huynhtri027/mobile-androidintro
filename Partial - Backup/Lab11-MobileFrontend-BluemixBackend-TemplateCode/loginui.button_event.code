@@ -1,0 +1,17 @@
+//retrieve the login button from the UI by using the button's ID
+Button bt_Login    = (Button)   findViewById( R.id.bt_Login    );
+
+_pDialog = new ProgressDialog( this );
+
+//set the button's click listener
+bt_Login.setOnClickListener(new OnClickListener() {  
+	@Override
+	public void onClick(View view) {
+
+		//execute the checkLogin()
+		checkLogin();
+		
+
+	}
+});
+        

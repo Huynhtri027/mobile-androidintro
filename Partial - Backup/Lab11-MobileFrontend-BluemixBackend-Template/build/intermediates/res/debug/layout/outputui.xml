@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" 
+    android:weightSum="100">
+
+        
+    <ExpandableListView
+        android:id="@+id/lv_Tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+	
+    
+    
+</RelativeLayout><!-- From: file:/Users/bvellanki/Desktop/Urgent%20use/Mobile/javaplays-mobileui-mobilestarterkit-template/res/layout/outputui.xml -->
