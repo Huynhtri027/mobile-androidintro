@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.0"
 
     defaultConfig {
-        applicationId "com.example.httpclientdemo"
+        applicationId "com.ecodcnc.httpclientdemo"
         minSdkVersion 10
         targetSdkVersion 22
         compileOptions {
@@ -20,4 +20,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+
 }
