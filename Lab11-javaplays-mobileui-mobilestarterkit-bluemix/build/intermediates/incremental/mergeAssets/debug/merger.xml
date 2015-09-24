@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/bvellanki/androidworkspace/mobilestarterkit/javaplays-mobileui-mobilestarterkit-basic/assets"><file name="starterkit.properties" path="/Users/bvellanki/androidworkspace/mobilestarterkit/javaplays-mobileui-mobilestarterkit-basic/assets/starterkit.properties"/></source></dataSet><dataSet config="debug"><source path="/Users/bvellanki/androidworkspace/mobilestarterkit/javaplays-mobileui-mobilestarterkit-basic/build-types/debug/assets"/></dataSet></merger>

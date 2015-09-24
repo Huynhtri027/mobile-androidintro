@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bvellanki/.gradle/caches/modules-2/files-2.1/com.ibm.mobile.services/ibmfilesync/1.0.1.20150311-1224/c9c2a97cdf54089bcc736b0589d299f3886c5257/ibmfilesync-1.0.1.20150311-1224.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c9c2a97cdf54089bcc736b0589d299f3886c5257">
+        <dex dex="/Users/bvellanki/androidworkspace/mobilestarterkit/javaplays-mobileui-mobilestarterkit-basic/build/intermediates/pre-dexed/debug/ibmfilesync-1.0.1.20150311-1224-c63c2e0e7d87e56f6c4eaa63b577e8d330d2de7f.jar" />
+    </item>
+    <item
+        jar="/Users/bvellanki/.gradle/caches/modules-2/files-2.1/com.ibm.mobile.services/ibmbluemix/1.0.1.20150311-1224/7bdbbcf8f380f8dd86e62b8cc88f36eec2ad2914/ibmbluemix-1.0.1.20150311-1224.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7bdbbcf8f380f8dd86e62b8cc88f36eec2ad2914">
+        <dex dex="/Users/bvellanki/androidworkspace/mobilestarterkit/javaplays-mobileui-mobilestarterkit-basic/build/intermediates/pre-dexed/debug/ibmbluemix-1.0.1.20150311-1224-231770637b86340e75fd83ac0e8aadd07fd7891a.jar" />
+    </item>
+    <item
+        jar="/Users/bvellanki/.gradle/caches/modules-2/files-2.1/com.ibm.mobile.services/ibmdata/1.0.1.20150311-1224/a589c20860ad3cdfa77ba4c6449cc1dda410d93/ibmdata-1.0.1.20150311-1224.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0a589c20860ad3cdfa77ba4c6449cc1dda410d93">
+        <dex dex="/Users/bvellanki/androidworkspace/mobilestarterkit/javaplays-mobileui-mobilestarterkit-basic/build/intermediates/pre-dexed/debug/ibmdata-1.0.1.20150311-1224-b3ef5b7ac8ceb68142ab41c752813b0939ff0f27.jar" />
+    </item>
+
+</items>
